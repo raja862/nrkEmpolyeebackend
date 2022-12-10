@@ -16,7 +16,7 @@ db();
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my MyOrg!');
+    res.send('Welcome to NRK EMP');
 })
 
 //Middlewares
