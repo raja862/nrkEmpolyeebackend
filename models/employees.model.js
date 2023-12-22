@@ -16,16 +16,16 @@ const employeeSchema = new mongoose.Schema({
     address: {
         type: String,
         required: true,
-        trim: true
+       
     },
     designation: {
         type: String,
-        required: true
+        
     },
     mobileNumber: {
         type: String,
         unique:true,
-        required: true
+       
     },
     bloodGroup: {
         type: String
